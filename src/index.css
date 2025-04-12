@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #111219;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --bg-color-primary: #111219;
+  --bg-color-secondary: #1E1F27;
+  --bg-color-third: #272933;
+  --title-font-size: 36px;
+  --text-font-size: 18px;
+  --subtext-font-size: 14px;
+  --font-color-primary: #fff;
+  --font-color-secondary: #fff9;
+}
+@media screen and (max-width: 768px) {
+  :root {
+    --title-font-size: 22px;
+    --text-font-size: 15px;
+    --subtext-font-size: 13px;
+  }
+}  
+
+.container-global{
+   max-width: 1400px;
+  margin: 0 auto;
+
+}
+.css-1r598fe-MuiCardContent-root_p{
+  padding: 0px !important;
+  margin-top: 15px;
+}

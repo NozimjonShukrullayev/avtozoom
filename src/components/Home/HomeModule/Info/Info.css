@@ -1,0 +1,160 @@
+.info-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  background: #272933;
+  padding: 10px 0;
+}
+.info-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.info-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 20px;
+}
+.info-titles-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.info-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.title-btn {
+  font-size: 15px;
+  display: flex;
+  color: #fff;
+  gap: 10px;
+  align-items: center;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.title-icon {
+  font-size: 30px;
+}
+.card-swiper {
+  display: flex;
+  gap: 40px;
+}
+.cars-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 10px;
+  min-width: 250px;
+  /* min-height: 300px; */
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.cars-slide-hover{
+  border: 1px solid #ffffff2f;
+}
+
+hr{
+  color: #fff;
+}
+
+.cars-slide:hover {
+  background-color: #9fa3a5;
+  background-image: linear-gradient(180deg, #9fa3a5 0%, #201f21 100%)
+}
+.cars-slide .cars_image {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  background: none;
+}
+.cars-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  background: none;
+}
+.cars-name {
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+  background: none;
+}
+.cars-model-price {
+  color: #fff;
+  font-size: 25px;
+  background: none;
+}
+.cars-date {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 15px;
+  background: none;
+}
+
+@media screen and (max-width:992px) {
+  .info-title{
+    font-size: 25px;
+  }
+  .cars-name{
+    font-size: 20px;
+  }
+  .cars-model-price{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:800px) {
+  .info-title{
+    font-size: 20px;
+  }
+  .cars-name{
+    font-size: 15px;
+  }
+  .cars-model-price{
+    font-size: 15px;
+  }
+  .cars-slide .cars_image{
+    width: 250px;
+    height: 150px;
+  }
+}
+@media screen and (max-width:600px) {
+  .info-title{
+    font-size: 15px;
+  }
+  .cars-slide .cars_image{
+    width: 250px;
+    height: 200px;
+  }
+  .title-btn{
+    font-size: 10px;
+  }
+  .title-icon{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:400px) {
+  .cars-slide .cars_image{
+    width: 220px;
+    height: 180px;
+  }
+  .info-title{
+    font-size: 10px;
+  }
+  .cars-name{
+    font-size: 10px;
+  }
+  .cars-model-price{
+    font-size: 10px;
+  }  
+}

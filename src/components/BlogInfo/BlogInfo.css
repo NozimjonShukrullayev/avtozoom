@@ -1,0 +1,60 @@
+/* ============ BLOG INFO =============== */
+#blog-info {
+  padding: 25px;
+  background-color: var(--bg-color-secondary);
+}
+#blog-info .container {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+.blogInfo__title {
+  margin: 105px 0 25px 0;
+  color: var(--font-color-primary);
+  font-size: calc(var(--title-font-size) + 8px);
+}
+.blogInfo__description,
+.blogInfo__subtitle {
+  color: var(--font-color-primary);
+  font-size: var(--text-font-size);
+}
+.blogInfo__subtitle {
+  margin: 25px 0;
+}
+.blog__breadcrumb {
+  gap: 5px;
+  display: flex;
+  margin-bottom: 25px;
+  color: var(--font-color-secondary);
+  font-size: var(--subtext-font-size);
+}
+.blog__breadcrumb a {
+  text-decoration: none;
+  color: var(--font-color-secondary);
+}
+.blogInfo__img {
+  width: 100%;
+  margin: 25px 0;
+  object-fit: cover;
+}
+/* ============ BLOG INFO =============== */
+
+@media screen and (max-width: 1140px) {
+  #blog .container {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 968px) {
+  #blog .container {
+    width: 760px;
+  }
+}
+@media screen and (max-width: 868px) {
+  #blog .container {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #blog .container {
+    width: 96%;
+  }
+}

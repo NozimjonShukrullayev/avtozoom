@@ -1,0 +1,55 @@
+/* ================== CONDITIONS ============= */
+#conditions {
+  padding: 25px;
+  background-color: var(--bg-color-secondary);
+}
+#conditions .container {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+.conditions__title,
+.conditions__subtitle,
+.conditions__description {
+  color: var(--font-color-primary);
+}
+.conditions__title {
+  margin: 25px 0;
+  font-size: calc(var(--title-font-size) - 12px);
+}
+.conditions__subtitle {  
+  margin: 45px 0 25px 20px;
+  font-size: calc(var(--title-font-size) - 15px);
+}
+.conditions__description {
+  line-height: calc(var(--text-font-size) + 6px);
+  font-size: calc(var(--text-font-size));
+}
+/* ================== CONDITIONS ============= */
+
+@media screen and (max-width: 1140px) {
+  #conditions .container {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 968px) {
+  #conditions .container {
+    width: 760px;
+  }
+}
+@media screen and (max-width: 868px) {
+  #conditions .container {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #conditions .container {
+    width: 96%;
+  }
+  .conditions__title {
+    font-size: calc(var(--title-font-size) - 0px);
+  }
+  .conditions__subtitle {  
+    margin: 45px 0 25px 15px;
+    font-size: calc(var(--title-font-size) - 4px);
+  }
+}

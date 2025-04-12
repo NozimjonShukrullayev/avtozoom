@@ -1,0 +1,238 @@
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-container .container {
+  background-color: #111219;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 600px;
+}
+.footer-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+.footer-card1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 250px;
+  align-items: flex-start;
+}
+.footer-card1 .footer-logo img {
+  width: 100px;
+}
+.footer-title,
+.footer-descr,
+.footer-btn,
+.cars,
+.footer-card2-title,
+.footer-about-title,
+.footer-about-descr,
+.footer-follows-title,
+.conditions,
+.license {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-title,
+.footer-card2-title,
+.footer-about-title,
+.footer-follows-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+.footer-card1 .footer-title {
+  text-transform: uppercase;
+}
+.footer-descr {
+  opacity: 0.6;
+}
+.footer-btn {
+  background: none;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.footer-btn:hover {
+  background-color: #f1394d;
+  border-color: #f1394d;
+}
+.cards2-card1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.footer-card2 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 20px;
+}
+.card2-card3 {
+  align-items: center;
+}
+.cars {
+  opacity: 0.6;
+}
+.footer-card2-title,
+.footer-about-title {
+  text-transform: uppercase;
+}
+
+.cards2-card2 {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card2-card3 {
+  justify-content: space-between;
+}
+.footer-follows {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-follows-icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.footer-icon {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.footer-about-descr {
+  opacity: 0.6;
+}
+.instagram:hover,
+.youtube:hover {
+  opacity: 1;
+  color: #f1394d;
+  transition: 0.3s;
+}
+.facebook:hover {
+  opacity: 1;
+  color: #3b5998;
+  transition: 0.3s;
+}
+.conditions,
+.license {
+  opacity: 0.6;
+  text-decoration: none;
+  font-size: 15px;
+}
+.conditions:hover {
+  color: #f1394d;
+  transition: 0.3s;
+}
+@media screen and (max-width: 850px) {
+  .footer-cards {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .footer-card1 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .footer-card1 .footer-logo {
+    margin: 0 auto;
+  }
+  .footer-card1 .footer-title {
+    font-size: 30px;
+  }
+  .footer-card1 .footer-btn {
+    padding: 20px;
+  }
+  .footer-card2 {
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+    .footer-card1 .footer-title{
+        font-size: 25px;
+    }
+    .footer-card1 .footer-btn{
+        padding: 15px;
+        font-size: 15px;
+    }
+  .footer-title,
+  .footer-card2-title,
+  .footer-about-title,
+  .footer-follows-title {
+    font-size: 18px;
+  }
+  .cars,.footer-about-descr,.footer-icon{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:500px) {
+    .footer-card1 .footer-title{
+        font-size: 20px;
+    }
+    .footer-card1 .footer-btn{
+        font-size: 12px;
+    }
+    .footer-title,
+    .footer-card2-title,
+    .footer-about-title,
+    .footer-follows-title {
+      font-size: 15px;
+    }
+    .cars,.footer-about-descr,.footer-icon,.conditions,
+    .license{
+      font-size: 10px;
+    }
+    .footer-card1 .footer-logo img{
+        width: 80px;
+    }
+}
+@media screen and (max-width:400px) {
+    .footer-card2{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer-cards2{
+        display: grid;
+        margin: 0 auto;
+        gap: 10px;
+        text-align: center;
+    }
+    .contact-des{
+        width: 50%;
+        text-align: center;
+    }
+    .footer-hr{
+        width: 100%;
+    }
+    .license{
+        width: 50%;
+    }
+}

@@ -1,0 +1,85 @@
+.main-container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #111219;
+}
+.main-card{
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-title,.main-desc,.main-btn{
+    color: #fff;
+}
+.main-title{
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 1.5;
+}
+.main-desc{
+    width: 85%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+.main-btn{
+    background: none;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+.main-icon{
+    font-size: 35px;
+}
+
+@media screen and (max-width:800px) {
+    .main-title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .main-btn{
+        font-size: 18px;
+    }
+    .main-icon{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:500px) {
+    .main-title{
+        font-size: 18px;
+        width: 100%;
+    }
+    .main-desc{
+        width: 100%;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:400px) {
+    .main-title{
+        font-size: 16px;
+        letter-spacing: 5px;
+    }
+    .main-desc{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .main-btn{
+        font-size: 14px;
+    }
+    .main-icon{
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,209 @@
+.serviceplans-container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 40px;
+}
+.plans-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    opacity: 0.6;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+.plans-title{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.plans-cards{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+.plans-card{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #1e1f27;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.plans-img{
+    width: 100%;
+    height: 200px;
+}
+.plans-img img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item-abouts{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.basic{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+.itemnumber{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.numb{
+    font-size: 20px;
+    color: #fff;
+    border:1px solid rgb(24, 208, 24);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.numbtext,.itemText{
+    color: #fff;
+    font-size: 20px;
+}
+.itemText{
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.itemTitle{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.item-checkCards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.item-checkCard{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.check-text{
+    color: #fff;
+    font-size: 20px;
+}
+.check-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 25px;
+    background: #fe363b;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1200px) {
+    .plans-title{
+        font-size: 30px;
+    }
+    .plans-link{
+        font-size: 13px;
+    }
+    .plans-card{
+        max-width: 300px;
+    }
+    .numbtext,.itemText,.check-text{
+        font-size: 18px;
+    }
+    .check-btn{
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+    .basic{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .plans-cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        align-content: center;
+        justify-content: center;
+    }
+    .plans-card{
+        max-width: 350px;
+    }
+}
+@media screen and (max-width:800px) {
+    .plans-title{
+        font-size: 25px;
+    }
+    .plans-link{
+        letter-spacing: 0px;
+        margin-bottom: 10px;
+    }
+    .plans-card{
+        max-width: 300px;
+    }
+    .numbtext,.itemText,.check-text{
+        font-size: 16px;
+    }
+    .check-btn{
+        font-size: 18px;
+        padding: 15px;
+    }
+    .basic{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:600px) {
+    .plans-cards{
+        margin-bottom: 40px;
+    }
+    .plans-card{
+        max-width: 250px;
+    }
+    .numbtext,.itemText,.check-text{
+        font-size: 14px;
+    }
+    .itemTitle{
+        font-size: 18px;
+    }
+    .check-btn{
+        font-size: 16px;
+        padding: 12px;
+    }
+    .basic{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:500px) {
+    .plans-link{
+        font-size: 12px;
+    }
+    .plans-title{
+        font-size: 20px;
+    }
+    .plans-cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .plans-card{
+        max-width: 90%;
+    }
+}
